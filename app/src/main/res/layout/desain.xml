@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget27">
+    //android:background="@color/teal_700"
+
+
+    <LinearLayout
+        android:layout_height="550dp"
+        android:layout_width="300dp"
+        android:id="@+id/widget28"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget30"
+            android:textStyle="bold"
+            android:text="Masukkan Alas">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/alas"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget31"
+            android:textStyle="bold"
+            android:text="Masukkan Tinggi">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/tinggi"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget32"
+            android:textStyle="bold"
+            android:text="Luas Segitiga">
+        </TextView>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/luas"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget34"
+            android:textStyle="bold"
+            android:text="Masukkan Panjang Sisi A">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/panjanga"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget35"
+            android:textStyle="bold"
+            android:text="Masukkan Panjang Sisi B">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/panjangb"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget36"
+            android:textStyle="bold"
+            android:text="Masukkan Panjang Sisi C">
+        </TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/panjangc"
+            android:textSize="20dp">
+        </EditText>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget33"
+            android:textStyle="bold"
+            android:text="Keliling Segitiga">
+        </TextView>
+
+        <EditText android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:id="@+id/keliling"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp">
+        </EditText>
+
+        <RadioGroup
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/dtor"
+                android:text="Menghitung Luas Segitiga">
+            </RadioButton>
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/rtod"
+                android:text="Menghitung Keliling Segitiga">
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/count"
+        android:text="Menghitung"
+        android:layout_alignRight="@+id/widget28"
+        android:layout_below="@+id/widget28">
+    </Button>
+
+</RelativeLayout>
